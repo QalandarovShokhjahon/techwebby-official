@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TechWebby — Web agentlik</title>
+    <meta name="description" content="techWebby — web saytlar va web ilovalar yaratish, biznesingiz uchun raqamli yechimlar" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header / Navbar -->
+    <header id="header" class="header">
+      <div class="container nav">
+        <a href="#home" class="brand" aria-label="techWebby home">
+          <span class="logo">tw</span>
+          <span class="brand-text">TechWebby</span>
+        </a>
+        <button id="menuToggle" class="menu-toggle" aria-expanded="false" aria-controls="navMenu" aria-label="Asosiy menyuni ochish">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <nav id="navMenu" class="nav-menu">
+          <a class="nav-link active" href="#home">Bosh sahifa</a>
+          <a class="nav-link" href="#about">Biz haqimizda</a>
+          <a class="nav-link" href="#services">Xizmatlar</a>
+          <a class="nav-link" href="#portfolio">Ishlarimiz</a>
+          <a class="nav-link" href="#blog">Yangiliklar</a>
+          <a class="nav-link" href="#contact">Bog'lanish</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section id="home" class="section hero section-p">
+      <div class="container grid-2">
+        <div class="hero-content">
+          <div class="badge">TECHWEBBY — INNOVATSION IT YECHIMLAR MARKAZI</div>
+          <h1 class="hero-title">Biz texnologiyalar orqali <span class="accent">kelajakni</span> yaratamiz</h1>
+          <p class="hero-subtitle">
+            Biz 0 dan boshlaymiz, lekin to‘xtamaymiz. <br> Biz uchun bu faqat kod emas — bu orzularni reallikka aylantiruvchi kuch.
+          </p>
+          <div class="hero-actions">
+            <a href="#services" class="btn btn-primary">Xizmatlarni ko'rish</a>
+            <a href="#contact" class="btn btn-ghost">Biz bilan bog'laning</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="card code-card" aria-hidden="true">
+            <div class="card-header">index.js</div>
+            <pre class="card-body"><code>function hello(name) {
+  return `Salom, ${name}!`;
+}
+
+console.log(hello('techWebby'));</code></pre>
+          </div>
+          <div class="glow"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section section-alt section-p">
+      <div class="container">
+        <h2 class="section-title">Biz haqimizda</h2>
+        <div class="about-intro">
+          <p>
+            TechWebby — 2025 yilda tashkil etilgan zamonaviy IT Brand. Bizning maqsadimiz - yosh dasturchilarga imkon yaratish,
+            yangi g‘oyalarni hayotga tatbiq etish
+            va kelajakda <span class="brand-mark">Google</span>, <span class="brand-mark">Apple</span>, <span class="brand-mark">Amazon</span> kabi gigantlar bilan raqobat qila oladigan global IT kompaniya darajasiga yetish. <span class="slogan-mark">TechWebby — 0 dan yuklaklikkacha</span>.
+          </p>
+        </div>
+
+        <div class="features what-we-do">
+          <article class="feature">
+            <div class="feature-icon">⚡</div>
+            <h3 class="feature-title">Web sayt va ilovalar</h3>
+            <p class="feature-desc">Landing, korporativ sayt, internet-do'kon va maxsus web ilovalar — tez, xavfsiz, SEOga tayyor.</p>
+          </article>
+          <article class="feature">
+            <div class="feature-icon">🎨</div>
+            <h3 class="feature-title">UI/UX va brending</h3>
+            <p class="feature-desc">Foydalanuvchiga qulay interfeyslar, zamonaviy dizayn va brend identifikatsiya.</p>
+          </article>
+          <article class="feature">
+            <div class="feature-icon">🛠️</div>
+            <h3 class="feature-title">Qo‘llab-quvvatlash</h3>
+            <p class="feature-desc">Yuklab berishdan keyingi xizmatlar: optimizatsiya, xavfsizlik va rivojlantirish.</p>
+          </article>
+        </div>
+
+        <div class="founder">
+          <div class="founder-photo" aria-hidden="true"></div>
+          <div class="founder-info">
+            <h4 class="founder-sub">TechWebby asoschisi</h4>
+            <p class="founder-name">Shokhjahon Qalandarov - Frontend Developer</p>
+          </div>
+        </div>
+
+        <div class="founder-bio">
+          <p>
+            Men Front-End dasturchiman. Maqsadim — Kuchli Full-Stack dasturchi bo‘lib, 
+            kelajakda IT sohasida o‘z kompaniyamni ochish.
+          </p>
+        </div>
+
+        <div class="founder-links">
+          <a class="btn btn-sm" href="tel:+998889580770">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="currentColor" d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24c1.11.37 2.31.57 3.58.57a1 1 0 0 1 1 1v3.5a1 1 0 0 1-1 1C12.3 21.02 3 11.7 3 1.99a1 1 0 0 1 1-1H7.5a1 1 0 0 1 1 1c0 1.27.2 2.47.57 3.58a1 1 0 0 1-.24 1.01l-2.2 2.2z"/>
+            </svg>
+            +998-88-958-0770
+          </a>
+          <a class="btn btn-sm" href="https://t.me/dev_ake" target="_blank" rel="noopener">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="currentColor" d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+            </svg>
+            Telegram
+          </a>
+          <a class="btn btn-sm" href="https://instagram.com/11.asqrvc" target="_blank" rel="noopener">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm10 2H7a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3zm-5 4a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2.2A2.8 2.8 0 1 0 12 16.8 2.8 2.8 0 0 0 12 10.2zm5.75-3.2a1.05 1.05 0 1 1 0 2.1 1.05 1.05 0 0 1 0-2.1z"/></svg>
+            Instagram
+          </a>
+          <a class="btn btn-sm" href="https://github.com/QalandarovShokhjahon" target="_blank" rel="noopener">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.64 22.42c.58.1.8-.25.8-.56v-2c-3.26.71-3.95-1.4-3.95-1.4-.53-1.35-1.3-1.7-1.3-1.7-1.06-.73.08-.72.08-.72 1.18.08 1.8 1.22 1.8 1.22 1.04 1.78 2.73 1.27 3.4.97.11-.77.41-1.27.75-1.56-2.61-.3-5.35-1.3-5.35-5.78 0-1.28.46-2.33 1.22-3.15-.12-.3-.53-1.52.12-3.17 0 0 1-.32 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.52 3.3-1.2 3.3-1.2.65 1.65.24 2.87.12 3.17.76.82 1.22 1.87 1.22 3.15 0 4.5-2.74 5.48-5.36 5.77.42.36.8 1.07.8 2.16v3.2c0 .31.22.66.81.55A11.5 11.5 0 0 0 12 .5z"/></svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section section-p">
+      <div class="container">
+        <h2 class="section-title">Asosiy xizmatlar</h2>
+        <div class="cards">
+          <article class="service-card">
+            <h3>Web saytlar</h3>
+            <p>Landing, korporativ saytlar, e‑commerce — tez va optimallashtirilgan.</p>
+            <a href="#contact" class="btn btn-sm">Narx so'rash</a>
+          </article>
+          <article class="service-card">
+            <h3>Telegram botlar</h3>
+            <p>Biz biznesingiz uchun funksional va xavfsiz Telegram botlar yaratib beramiz.</p>
+            <a href="#contact" class="btn btn-sm">Narx so'rash</a>
+          </article>
+          <article class="service-card">
+            <h3>UI/UX dizayn</h3>
+            <p>Brendingizga mos, foydalanuvchiga qulay interfeyslar.</p>
+            <a href="#contact" class="btn btn-sm">Narx so'rash</a>
+          </article>
+          <article class="service-card">
+            <h3>IT konsalting / o‘qitish</h3>
+            <p>Texnik audit, yo‘l xarita va jamoa uchun treninglar.</p>
+            <a href="#contact" class="btn btn-sm">Narx so'rash</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="section section-alt section-p">
+      <div class="container">
+        <h2 class="section-title">Ishlarimiz</h2>
+        <p class="section-subtitle">Tanlangan loyihalar — rasm, tavsif, texnologiyalar, havolalar</p>
+        <div class="portfolio">
+          <article class="project-card">
+            <div class="project-media" role="img" aria-label="E-commerce platforma skrinshot"
+                 style="background:
+                   linear-gradient(135deg, rgba(127,179,255,.30), rgba(127,179,255,0) 60%),
+                   radial-gradient(800px 260px at -20% -30%, rgba(91,140,255,.25), rgba(91,140,255,0)),
+                   linear-gradient(180deg, #0f1625, #0c1220);"></div>
+            <div class="project-body">
+              <h3>E‑commerce platforma</h3>
+              <p>Online do‘kon: mahsulotlar, savatcha, to‘lov integratsiyasi. Stack: HTML, CSS, JS.</p>
+              <div class="project-actions">
+                <a class="btn btn-sm" href="#" target="_blank" rel="noopener">GitHub</a>
+                <a class="btn btn-sm btn-primary" href="#" target="_blank" rel="noopener">Live Demo</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-media" role="img" aria-label="Telegram bot skrinshot"
+                 style="background:
+                   linear-gradient(135deg, rgba(46,213,115,.25), rgba(46,213,115,0) 60%),
+                   radial-gradient(700px 240px at 110% -10%, rgba(39,193,147,.25), rgba(39,193,147,0)),
+                   linear-gradient(180deg, #0f1625, #0c1220);"></div>
+            <div class="project-body">
+              <h3>Telegram Support Bot</h3>
+              <p>Murojaatlarni qabul qilish, admin panel va xabarnoma. Stack: Node.js, Telegraf.</p>
+              <div class="project-actions">
+                <a class="btn btn-sm" href="#" target="_blank" rel="noopener">GitHub</a>
+                <a class="btn btn-sm btn-primary" href="#" target="_blank" rel="noopener">Live Demo</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-media" role="img" aria-label="SaaS analitika skrinshot"
+                 style="background:
+                   linear-gradient(135deg, rgba(255,140,91,.28), rgba(255,140,91,0) 60%),
+                   radial-gradient(760px 240px at -10% 120%, rgba(255,193,39,.22), rgba(255,193,39,0)),
+                   linear-gradient(180deg, #0f1625, #0c1220);"></div>
+            <div class="project-body">
+              <h3>SaaS Analytics Dashboard</h3>
+              <p>Grafiklar, metrikalar va foydalanuvchi boshqaruvi. Stack: Next.js, Tailwind.</p>
+              <div class="project-actions">
+                <a class="btn btn-sm" href="#" target="_blank" rel="noopener">GitHub</a>
+                <a class="btn btn-sm btn-primary" href="#" target="_blank" rel="noopener">Live Demo</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog / News -->
+    <section id="blog" class="section section-p">
+      <div class="container">
+        <h2 class="section-title">Yangiliklar</h2>
+        <p class="section-subtitle">Texnologiyalar, darslar va kompaniya yangiliklari</p>
+        <div class="posts">
+          <article class="post">
+            <div class="post-thumb thumb-news" aria-hidden="true"></div>
+            <h3>TechWebby rasmiy sayti ishga tushdi</h3>
+            <p class="post-meta"><span class="badge badge-news">Yangiliklar</span> · 2025-10-29</p>
+            <p>Endi xizmatlarimiz, ishlarimiz va yangiliklarni bir joyda kuzatishingiz mumkin. Sayt mobilga mos va tez ishlaydi. <a href="#">Batafsil</a></p>
+          </article>
+          <article class="post">
+            <div class="post-thumb thumb-article" aria-hidden="true"></div>
+            <h3>Next.js + Tailwind: Tez start qo‘llanma</h3>
+            <p class="post-meta"><span class="badge badge-article">Maqola</span> · 2025-10-21</p>
+            <p>Bo‘sh loyihadan prod darajagacha: App Router, Tailwind sozlamalari, komponent arxitekturasi va SEO amaliyoti. <a href="#">Batafsil</a></p>
+          </article>
+          <article class="post">
+            <div class="post-thumb thumb-ann" aria-hidden="true"></div>
+            <h3>E'lon: Yangi xizmatlar paketlari</h3>
+            <p class="post-meta"><span class="badge badge-ann">E'lon</span> · 2025-10-15</p>
+            <p>Telegram botlar, SaaS Analytics dashboard va texnik audit bo‘yicha buyurtmalar qabul qilinadi. Maxsus paketlar va muddatli chegirmalar mavjud. <a href="#">Batafsil</a></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section section-alt section-p">
+      <div class="container grid-2">
+        <div>
+          <h2 class="section-title">Bog'lanish</h2>
+          <p class="section-subtitle">Loyihangiz haqida qisqacha yozing — 24 soat ichida javob beramiz.</p>
+          <ul class="contact-list">
+            <li><strong>Telefon:</strong> <a href="tel:+998889580770">+998-88-958-0770</a></li>
+            <li><strong>Email:</strong> <a href="mailto:techwebbyuz@gmail.com">techwebbyuz@gmail.com</a></li>
+            <li><strong>Telegram:</strong> <a href="https://t.me/Dev_Ake" target="_blank" rel="noopener">@Dev_Ake</a></li>
+            <li><strong>Github:</strong> <a href="https://github.com/techwebby" target="_blank" rel="noopener">github.com/techwebby</a></li>
+          </ul>
+        </div>
+        <form class="contact-form" onsubmit="return false;" data-endpoint="">
+          <div class="form-grid">
+            <label>
+              <span>Ism</span>
+              <input type="text" name="name" placeholder="Ismingiz" required />
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" placeholder="email@example.com" required />
+            </label>
+            <label>
+              <span>Telefon</span>
+              <input type="tel" name="phone" placeholder="(+998) 90 123 45 67" />
+            </label>
+            <label>
+              <span>Xizmat turi</span>
+              <select name="service" required>
+                <option value="" selected disabled>Tanlang</option>
+                <option>Web sayt</option>
+                <option>Telegram bot</option>
+                <option>UI/UX dizayn</option>
+                <option>IT konsalting</option>
+              </select>
+            </label>
+          </div>
+          <label>
+            <span>Xabar</span>
+            <textarea name="message" rows="5" placeholder="Loyihangiz haqida yozing..."></textarea>
+          </label>
+          <button class="btn btn-primary" type="submit">Yuborish</button>
+          <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Author: Shokhjahon Qalandarov. Barcha huquqlar himoyalangan.</p>
+        <a href="#home" class="back-to-top" aria-label="Yuqoriga qaytish">↑</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
+
+
