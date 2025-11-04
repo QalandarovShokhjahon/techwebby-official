@@ -39,4 +39,4 @@ This website offers users the following:
 
 ## 👨‍💻 Muallif / Author
 **Shokhjahon** — Front-End dasturchi & [TechWebby](https://t.me/techWebby) asoschisi  
-> “Har bir loyiha — yangi bilim sari qadam.” / "Building knowled
+> “Har bir loyiha — yangi bilim sari qadam.” / "Building knowledge, one project at a time."
