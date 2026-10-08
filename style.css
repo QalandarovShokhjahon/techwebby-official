@@ -429,7 +429,7 @@ body::before {
 
 /* Founder block */
 .founder { display: grid; grid-template-columns: 120px 1fr; gap: 14px; align-items: center; margin-top: 18px; }
-.founder-photo { width: 120px; height: 120px; border-radius: 14px; background: url('images/founder.jpg') center/cover no-repeat, linear-gradient(135deg, rgba(91,140,255,.18), rgba(91,140,255,0)); border: 1px solid var(--border); box-shadow: var(--shadow); }
+.founder-photo { width: 120px; height: 120px; border-radius: 14px; background: url('images/me.avif') center/cover no-repeat, linear-gradient(135deg, rgba(91,140,255,.18), rgba(91,140,255,0)); border: 1px solid var(--border); box-shadow: var(--shadow); }
 .founder-info h3 { margin: 0 0 6px; font-size: 18px; }
 .founder-info p { margin: 0; color: var(--muted); }
 .founder-sub { margin: 0 0 4px; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: #7fb3ff; }
