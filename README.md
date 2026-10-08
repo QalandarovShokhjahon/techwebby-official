@@ -33,7 +33,7 @@ This website offers users the following:
 ---
 
 ## 🌍 Jonli sayt / Live Demo
-🔗 [Saytni ko‘rish / View Website](https://www.techwebby.uz)
+🔗 [Saytni ko‘rish / View Website](https://techwebby.uz/)
 
 ---
 
